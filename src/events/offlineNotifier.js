@@ -21,8 +21,7 @@ module.exports = {
         ];
         if (!botIDs.includes(newStatus.user.id)) return;
         if (oldStatus.status !== "offline" && newStatus.status == "offline") {
-            channel.send(`<@&1358635798991208558>, <@${oldStatus.user.id}> has gone offline.
-                \n<@1018686464000807003> will fix this when she can`)
+            channel.send(`<@&1358635798991208558>, <@${oldStatus.user.id}> has gone offline.\n<@1018686464000807003> will fix this ASAP`)
         };
     },
 };
