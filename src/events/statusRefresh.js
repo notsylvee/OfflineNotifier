@@ -7,5 +7,6 @@ module.exports = {
         setInterval(() => {
             message.channel.send(`refreshing statuses`);
           }, 3600000);
+        console.log('started refreshing');
     }
 }
