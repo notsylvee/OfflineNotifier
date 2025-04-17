@@ -19,6 +19,7 @@ module.exports = {
             "953885359668871238", /*Sylvbot*/
             "1338726967142256716", /*Teddy Bloxpin*/
             "1360828777952972957", /*p.AI.nter*/
+            "1361062973556392207", /*Bouncer*/
         ];
         if (!botIDs.includes(newStatus.user.id)) return;
         if (oldStatus.status !== "offline" && newStatus.status == "offline") {
