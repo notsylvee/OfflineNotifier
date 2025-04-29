@@ -22,6 +22,7 @@ module.exports = {
             "1361062973556392207", /*Bouncer*/
             "1362283545023746139", /*Pilby*/
             "1363770199236415560", /*Poob*/
+            "1366676439914512384", /*NAVI*/
         ];
         if (!botIDs.includes(newStatus.user.id)) return;
         if (oldStatus.status !== "offline" && newStatus.status == "offline") {
