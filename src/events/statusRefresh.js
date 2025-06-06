@@ -8,5 +8,6 @@ module.exports = {
             message.channel.send(`refreshing statuses`);
           }, 3600000);
         console.log('started refreshing');
+        message.channel.send(`started refreshing`);
     }
 }
